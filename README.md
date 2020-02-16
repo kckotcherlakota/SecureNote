@@ -1,5 +1,5 @@
 # SecureNote
-### A BlockChain Based TextualContent Sharing Application
+### A BlockChain Based Textual Content Sharing Application
 
 ### Abstract::
 
