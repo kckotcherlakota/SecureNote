@@ -1,9 +1,9 @@
 # SecureNote
-### A BlockChain Based Content Sharing Application
+### A BlockChain Based TextualContent Sharing Application
 
 ### Abstract::
 
-The content sharing system serves as a major backbone for resolving problems and providing security.Unfortunately, there are some issues with the existing system which can be solved using blockchain technology. In India, most  complaints of  people are not solved and even if the complaint gets registered , most of the higher officials are unaware of the complaints as most of them are being manipulated in between.This kind of problem can be solved using a decentralized platform for people to register their queries, which all the officials in that particular zone can access and take action immediately without means of altering the message. 
+The Textual content sharing system serves as a major backbone for resolving problems and providing security.Unfortunately, there are some issues with the existing system which can be solved using blockchain technology. In India, most  complaints of  people are not solved and even if the complaint gets registered , most of the higher officials are unaware of the complaints as most of them are being manipulated in between.This kind of problem can be solved using a decentralized platform for people to register their queries, which all the officials in that particular zone can access and take action immediately without means of altering the message. 
 
 ### Working Model 
 When a user enters a complaint, it gets registered into one of the blocks in our blockchain system in a systematic manner. 
