@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }} - {{ subtitle }}</title>
+		<link rel="stylesheet" href="../static/stylesheet.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="navbar-item left active-link" href="/">Home</a>
+			<a class="navbar-item left" href="{{ node_address }}/mine" target="_blank">Request to Mine</a>
+			<a class="navbar-item left" href="/">Resync Blockchain</a>
+			<a class="navbar-item right" href="http://kckotcherlakota.me/" target="_blank">The Bugslyers</a>
+		</div>
+		<div class="title">
+			<h1 class="title-text">{{ title }}</h1>
+			<h1 class="subtitle-text">{{ subtitle }}</h1>
+		</div>
+		<hr class="hr">
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+		<ul>
+		{% for message in messages %}
+			<li>{{ message }} </li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+		{% endwith %}
+		{% block content %}{% endblock %}
+		<div class="footer">
+		</div>
+	</body>
+</html>
