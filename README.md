@@ -1,4 +1,5 @@
 # SecureNote
+### A BlockChain Based Content Sharing Application
 
 ### PROBLEM STATEMENT ::
 
